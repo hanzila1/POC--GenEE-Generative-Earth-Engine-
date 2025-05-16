@@ -10,6 +10,24 @@ The objective is to develop a **geospatial chatbot** that:
 - Executes relevant geospatial analysis tasks
 - Leverages the **Google Earth Engine Python API** for data processing and analysis
 
+---
+
+## 🔧 System Architecture
+
+The following diagram illustrates the overall architecture of the system, including model integration, prompt handling, geocoding, Earth Engine function execution, and visualization in an interactive map interface:
+
+![System Architecture](workflow_graph.png)
+
+---
+
+## 🌍 Example Output
+
+Below is a screenshot of the interactive map interface responding to a natural language prompt, executing Earth Engine functions accordingly:
+
+![Notebook Output](output.png)
+
+---
+
 ## Vision
 
 This notebook lays the groundwork for building a full-scale **GeoLLM application** capable of automating complex geospatial workflows through intuitive **prompt-based interactions**. The system has potential for:
